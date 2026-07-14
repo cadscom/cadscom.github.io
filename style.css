@@ -1,0 +1,235 @@
+/* ===========================================================
+   General
+   =========================================================== */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ===========================================================
+   Header
+   =========================================================== */
+
+header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #002147;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #002147;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* ===========================================================
+   Navigation
+   =========================================================== */
+
+nav {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+nav a {
+    color: #002147;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 8px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 2px solid #002147;
+}
+
+/* ===========================================================
+   Main headings
+   =========================================================== */
+
+h2 {
+    color: #002147;
+}
+
+h3 {
+    color: #002147;
+    font-size: 20px;
+    font-weight: 600;    
+    padding-bottom: 5px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* ===========================================================
+   Paragraphs
+   =========================================================== */
+
+p {
+    text-align: justify;
+}
+
+/* ===========================================================
+   Lists
+   =========================================================== */
+
+ul {
+    padding-left: 22px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+/* ===========================================================
+   Links
+   =========================================================== */
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================================================
+   Images
+   =========================================================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portrait {
+    width: 150px;
+    border-radius: 4px;
+    display: block;
+}
+
+.center-image {
+    display: block;
+    margin: 25px auto;
+}
+
+.responsive-image {
+    display: block;
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    margin: 25px auto;
+}
+
+/* ===========================================================
+   Contact page
+   =========================================================== */
+
+.contact-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.contact-table td {
+    vertical-align: top;
+    padding-bottom: 12px;
+}
+
+.contact-label {
+    width: 90px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-right: 12px;
+}
+
+.contact-photo {
+    padding-left: 40px;
+}
+
+/* ===========================================================
+   Footer
+   =========================================================== */
+
+footer {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}
+
+/* ===========================================================
+   Mobile
+   =========================================================== */
+
+@media (max-width: 700px) {
+
+    body {
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    .contact-table,
+    .contact-table tr,
+    .contact-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .contact-photo {
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .portrait {
+        margin: auto;
+    }
+}
+
+/* ===========================================================
+   Teaching
+   =========================================================== */
+
+.teaching-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+.teaching-table td {
+    padding: 8px 5px;
+    vertical-align: top;
+}
+
+
+.teaching-year {
+    width: 140px;
+    font-weight: bold;
+}
